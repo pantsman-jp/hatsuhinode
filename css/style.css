@@ -1,38 +1,41 @@
-html,
-body {
+body,
+html {
   margin: 0;
   padding: 0;
-  width: 100%;
   height: 100%;
   overflow: hidden;
+  background: black;
   font-family: sans-serif;
 }
 
 #controls {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  background: rgba(255, 255, 255, 0.8);
-  padding: 8px;
-  border-radius: 6px;
+  top: 20px;
+  left: 20px;
+  color: white;
   z-index: 10;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 10px 14px;
+  border-radius: 6px;
+  backdrop-filter: blur(3px);
 }
 
 #sky {
+  width: 100%;
+  height: 100%;
   position: relative;
-  width: 100vw;
-  height: 100vh;
-  background: linear-gradient(to top, #001, #88d);
-  overflow: hidden;
+  background: linear-gradient(to top, #000011, #000022);
+  transition: background 1s linear;
 }
 
 #sun {
   position: absolute;
-  bottom: -100px;
+  bottom: -120px;
   left: 50%;
   width: 100px;
   height: 100px;
-  background: rgba(255, 220, 50, 1);
+  margin-left: -50px;
+  background: rgb(255, 200, 50);
   border-radius: 50%;
   box-shadow:
     0 0 40px rgba(255, 220, 50, 0.8),
@@ -46,6 +49,7 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 50px;
-  background: #333;
+  height: 20px;
+  background: black;
+  z-index: 2;
 }
