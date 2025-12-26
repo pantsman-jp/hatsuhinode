@@ -1,5 +1,7 @@
 # 初日の出 2025-2026
 
+[English](https://github.com/pantsman-jp/hatsuhinode/blob/main/docs/README.en.md)
+
 ## 概要
 これは、日の出をシミュレーションするツールです。
 ユーザーが指定した秒数後に日の出が始まります。
