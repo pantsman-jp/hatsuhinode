@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## v0.3.0 (2025-12-26)
+- seconds until sunrise
+
 ## v0.2.0 (2025-12-26)
 - sunrise animation
 

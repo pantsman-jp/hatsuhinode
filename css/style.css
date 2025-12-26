@@ -8,6 +8,16 @@ body {
   font-family: sans-serif;
 }
 
+#controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 8px;
+  border-radius: 6px;
+  z-index: 10;
+}
+
 #sky {
   position: relative;
   width: 100vw;
@@ -18,13 +28,12 @@ body {
 
 #sun {
   position: absolute;
-  bottom: 0;
+  bottom: -100px;
   left: 50%;
   width: 100px;
   height: 100px;
   background: yellow;
   border-radius: 50%;
-  transform: translateX(-50%) translateY(100%);
   box-shadow: 0 0 50px rgba(255, 200, 0, 0.8);
 }
 
