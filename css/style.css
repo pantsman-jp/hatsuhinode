@@ -32,9 +32,14 @@ body {
   left: 50%;
   width: 100px;
   height: 100px;
-  background: yellow;
+  background: rgba(255, 220, 50, 1);
   border-radius: 50%;
-  box-shadow: 0 0 50px rgba(255, 200, 0, 0.8);
+  box-shadow:
+    0 0 40px rgba(255, 220, 50, 0.8),
+    0 0 120px rgba(255, 200, 0, 0.6),
+    0 0 250px rgba(255, 180, 0, 0.4),
+    0 0 400px rgba(255, 150, 0, 0.3);
+  filter: blur(2px);
 }
 
 #horizon {
