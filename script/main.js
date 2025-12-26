@@ -3,7 +3,7 @@ const sky = document.getElementById("sky");
 const startBtn = document.getElementById("startBtn");
 const secondsInput = document.getElementById("seconds");
 const controls = document.getElementById("controls");
-const riseDurationSec = 10; // 180
+const riseDurationSec = 180; // 180 is default
 let startTime = 0;
 let animating = false;
 
