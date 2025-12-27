@@ -2,6 +2,8 @@
 
 [English](https://github.com/pantsman-jp/hatsuhinode/blob/main/docs/README.en.md)
 
+<https://pantsman-jp.github.io/first-sunrise/>
+
 ## 概要
 これは、日の出をシミュレーションするツールです。
 ユーザーが指定した秒数後に日の出が始まります。
