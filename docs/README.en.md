@@ -1,5 +1,9 @@
 # First Sunrise 2025-2026
 
+[日本語](https://github.com/pantsman-jp/first-sunrise/blob/main/README.md)
+
+<https://pantsman-jp.github.io/first-sunrise/>
+
 ## Overview
 This tool simulates a sunrise.
 The sunrise begins after the specified number of seconds.
